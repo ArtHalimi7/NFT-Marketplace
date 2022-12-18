@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+  <title>A&K™ Studios.</title>
+</head>
+<body>
+  <div class="container1">
+
+    <nav class="vertical-nav">
+      <ul class="vertical-nav">
+        <li style="display:inline"><a href="C:\Users\artha\OneDrive\Desktop\MyWeb\home page\projekti.html"><b>Home</b></a></li>
+        <li style="display:inline"><a href="C:\Users\artha\OneDrive\Desktop\MyWeb\collections\collections.html"><b>Collections</b></a></li>
+        <li style="display:inline"><a href="C:\Users\artha\OneDrive\Desktop\MyWeb\about page\about page.html"><b>About</b></a></li>
+        <li style="display:inline"><a href="C:\Users\artha\OneDrive\Desktop\MyWeb\login page\login.html"><b>Login</b></a></li>
+      </ul>
+      
+      <br><br><br><br><br><br>
+      <div id="headD">
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+        <div>
+        <img src="C:\Users\artha\OneDrive\Desktop\MyWeb\accessories\logo.png" alt="AK LOGO" class="logo" width="150px" height="150px" margin-left="350px">
+    </div>
+    </nav>
+    <header class="showcase">
+      <h1 class="titulli">Browse through our collection.</h1>
+      <br><br><br><br>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="container">
+      <div class="card">
+           <div class="card-image car-1"></div>
+           <h2>1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDENSE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+           <a href="">MAKE AN OFFER!</a>
+     </div>    
+     <div class="card">
+         <div class="card-image car-2"></div>
+         <h2>1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBLOOM&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+         <a href="">MAKE AN OFFER!</a>
+
+     </div> 
+     <div class="card">
+         <div class="card-image car-3"></div>
+         <h2>2&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspREEF&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+         <a href="">MAKE AN OFFER!</a>
+     </div>
+     <div class="card">
+      <div class="card-image car-4"></div>
+      <h2>1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDENSE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+      <a href="">MAKE AN OFFER!</a>
+    </div>
+    <section class="container2">
+        <div class="card">
+             <div class="card-image car-5"></div>
+             <h2>1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDENSE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+             <a href="">MAKE AN OFFER!</a>
+       </div>    
