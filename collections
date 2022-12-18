@@ -1,7 +1,222 @@
 <!DOCTYPE html>
 <head>
   <title>A&K™ Studios.</title>
-</head>
+<style>
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding-left: 30;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+    background-image: url("https://arweave.net/tE50DHaSbZXun3dY39bkfwm1LCumvW6tbYzmPIBubx0");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 695px;
+    padding: 60px 30px 0 30px;
+  }
+  
+  a {
+    color: #262626;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  .firstList{
+    display:flex;
+    justify-content:space-between;
+    color: black;
+    background-color: black;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container1 {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+  }
+  
+  .container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card{
+    background-color: transparent;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .card-image{
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+  }
+  .car-1{
+    background-image: url('https://facets.la/thumbnails/(1).jpg');
+  }
+  .car-2{
+    background-image: url('https://d2j7mtsoydewxq.cloudfront.net/facets-ii/366-thumbnail.png')
+  }
+  .car-3{
+    background-image: url('https://facets.la/thumbnails/(2).jpg')
+  }
+  .car-4{
+    background-image: url('https://d2j7mtsoydewxq.cloudfront.net/facets-ii/367-thumbnail.png');
+  }
+  .car-5{
+    background-image: url('https://facets.la/thumbnails/(3).jpg')
+  }
+  .car-6{
+    background-image: url('https://d2j7mtsoydewxq.cloudfront.net/facets-ii/368-thumbnail.png')
+  }
+  .car-7{
+    background-image: url('https://facets.la/thumbnails/(4).jpg');
+  }
+  .car-8{
+    background-image: url('https://d2j7mtsoydewxq.cloudfront.net/facets-ii/369-thumbnail.png')
+  }
+  .car-9{
+    background-image: url('https://facets.la/thumbnails/(5).jpg')
+  }
+  .car-10{
+    background-image: url('https://d2j7mtsoydewxq.cloudfront.net/facets-ii/370-thumbnail.png');
+  }
+  .car-11{
+    background-image: url('https://facets.la/thumbnails/(6).jpg')
+  }
+  .car-12{
+    background-image: url('https://d2j7mtsoydewxq.cloudfront.net/facets-ii/371-thumbnail.png');
+  }
+  .car-13{
+    background-image: url('https://facets.la/thumbnails/(7).jpg')
+  }
+  .car-14{
+    background-image: url('https://d2j7mtsoydewxq.cloudfront.net/facets-ii/372-thumbnail.png')
+  }
+  .car-15{
+    background-image: url('https://facets.la/thumbnails/(8).jpg');
+  }
+  .car-16{
+    background-image: url('https://d2j7mtsoydewxq.cloudfront.net/facets-ii/373-thumbnail.png');
+  }
+  .card h2{
+    padding: 10px;
+  }
+  .card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 10px 25px;
+    text-decoration: none;
+  }
+  .card:hover{
+   background-color: #5900ff;
+   color: white;
+   cursor: pointer;
+   transform: scale(1.03);
+   transition: 0.7s
+  }
+   .home-cards{
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .vertical-nav {
+    margin-top: 40px;
+    width: 20px;
+    font-size: 30px;
+    text-decoration: underline;
+    position: fixed;
+    transition: 0.7s;
+  }
+  .vertical-nav a {
+    background-color: #eee;
+    color: #5900ff;
+    display: block;
+    text-decoration: underline;
+    transition: 0.7s;
+  }
+  
+  .vertical-nav a:hover {
+   -webkit-text-stroke: 1px #5900ff;
+    color: transparent;
+  }
+  
+  
+  .main-nav .logo {
+     margin-left: 80px;  
+     width: 70px;
+     height: 60px;
+  }
+  
+  .menu-btn {
+    cursor: pointer;
+    position: center;
+    top: 20px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+  }
+  .titulli{
+    top: 20px;
+    width: 1200px;
+    margin: 200px;
+    margin-left: 350px;
+    font-size: 160px; 
+    height: 500px;
+    margin-top: 0.1em;
+    transition: 0.7s;
+    color: #5900ff;
+  }
+  .titulli:hover{
+    -webkit-text-stroke: 2px #5900ff;
+    color: transparent;
+  }
+  .btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #5900ff;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+  
+  .btn:hover {
+    opacity: 0.7;
+    color: white;
+    
+  }
+  </style>
+  </head>
 <body>
   <div class="container1">
 
@@ -59,4 +274,71 @@
              <div class="card-image car-5"></div>
              <h2>1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDENSE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
              <a href="">MAKE AN OFFER!</a>
-       </div>    
+       </div>
+       <div class="card">
+        <div class="card-image car-6"></div>
+        <h2>1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBLOOM&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+        <a href="">MAKE AN OFFER!</a>
+
+    </div> 
+    <div class="card">
+        <div class="card-image car-7"></div>
+        <h2>2&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspREEF&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+        <a href="">MAKE AN OFFER!</a>
+    </div>
+    <div class="card">
+     <div class="card-image car-8"></div>
+     <h2>1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDENSE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+     <a href="">MAKE AN OFFER!</a>
+   </div> 
+   <section class="container3">
+     <div class="card">
+          <div class="card-image car-9"></div>
+          <h2>1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDENSE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+          <a href="">MAKE AN OFFER!</a>
+    </div>    
+    <div class="card">
+        <div class="card-image car-10"></div>
+        <h2>1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBLOOM&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+        <a href="">MAKE AN OFFER!</a>
+
+    </div> 
+    <div class="card">
+        <div class="card-image car-11"></div>
+        <h2>2&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspREEF&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+        <a href="">MAKE AN OFFER!</a>
+    </div>
+    <div class="card">
+     <div class="card-image car-12"></div>
+     <h2>1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDENSE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+     <a href="">MAKE AN OFFER!</a>
+   </div>
+   <section class="container4">
+     <div class="card">
+          <div class="card-image car-13"></div>
+          <h2>1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDENSE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+          <a href="">MAKE AN OFFER!</a>
+    </div>    
+    <div class="card">
+        <div class="card-image car-14"></div>
+        <h2>1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBLOOM&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+        <a href="">MAKE AN OFFER!</a>
+
+    </div> 
+    <div class="card">
+        <div class="card-image car-15"></div>
+        <h2>2&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspREEF&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+        <a href="">MAKE AN OFFER!</a>
+    </div>
+    <div class="card">
+     <div class="card-image car-16"></div>
+     <h2>1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDENSE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+     <a href="">MAKE AN OFFER!</a>
+   </div>      
+ <br><br><br><br><br><br><br><br><br>
+<a href="#" class="btn">1</a>
+</section> 
+<br><br><br>
+<br><br><br>
+ </body>
+ </html>           
