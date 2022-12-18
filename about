@@ -1,6 +1,239 @@
 <!DOCTYPE html>
 <head>
   <title>About A&K™ Studios.</title>
+    <style>
+        * {
+  box-sizing: border-box;
+  margin: 0;
+  padding-left: 30;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  color: #000;
+  font-size: 15px;
+  line-height: 1.5;
+  background-image: url("https://arweave.net/tE50DHaSbZXun3dY39bkfwm1LCumvW6tbYzmPIBubx0");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a {
+  color: #262626;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+.firstList{
+  display:flex;
+  justify-content:space-between;
+  color: black;
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+ .home-cards{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  
+ }
+
+.vertical-nav {
+  margin-top: 40px;
+  width: 20px;
+  font-size: 30px;
+  text-decoration: underline;
+  position: fixed;
+}
+.vertical-nav a {
+  background-color:#5900ff ;
+  color:#5900ff;
+  display: block;
+  text-decoration: underline;
+}
+
+.vertical-nav a:hover {
+  background-color: #eee;
+  display: block;
+  text-decoration: underline;
+  transition: 0.7s;
+  -webkit-text-stroke: 2px #5900ff;
+  color: transparent;
+}
+
+.vertical-nav a.active {
+  background-color: #5900ff;
+}
+
+.main-nav .logo {
+   margin-left: 80px;  
+   width: 70px;
+   height: 60px;
+}
+
+.main-nav ul {
+  display: flex;
+}
+
+.main-nav ul li {
+  padding: 0 10px;
+}
+
+.main-nav ul li a {
+  padding-bottom: 2px;
+}
+
+.main-nav ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.main-nav ul.main-menu {
+  color:#5900ff;
+  flex: 1;
+  margin-left: 20px;
+  text-decoration: underline;
+  font-size: large;
+}
+.menu-btn {
+  cursor: pointer;
+  position: center;
+  top: 20px;
+  right: 30px;
+  z-index: 2;
+  display: none;
+  margin-left: 750px;
+}
+.titulli{
+  top: 20px;
+  width: 1200px;
+  margin: 200px;
+  margin-left: 350px;
+  font-size: 160px; 
+  height: 2px;
+  margin-top: 0.1em;
+  color: #5900ff;
+}
+.titulli:hover{
+  -webkit-text-stroke: 2px #5900ff;
+  color: transparent;
+  transition: 0.7s;
+}
+.few-words{
+  width:1050px;
+  margin-left:750px;
+  font-size: 22px;
+  color: white;
+}
+.few-words:hover {
+  -webkit-text-stroke: 2px #5900ff;
+  color: transparent;
+  transition: 0.7s;
+}
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background:#5900ff;
+  color: rgb(0, 0, 0);
+  font-size: 15px;;
+  margin-left: 1400px; 
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+
+.staff{
+  top: 20px;
+  width: 1200px;
+  margin: 200px;
+  margin-left: 350px;
+  font-size: 120px; 
+  height: 2px;
+  margin-top: 0.1em;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  color: #5900ff;
+ 
+}
+.staff:hover{
+  -webkit-text-stroke: 2px #5900ff;
+  color: transparent;
+  transition: 0.7s;
+}
+.person{
+    bottom: 200px;
+    font-size: 40px;
+    color: white;
+    margin-left: 1050px;
+}
+.person:hover{
+  -webkit-text-stroke: 2px #5900ff;
+  color: transparent;
+  transition: 0.7s;
+}
+.person2{
+    bottom: 200px;
+    font-size: 40px;
+    text-align: center;
+    color: white; 
+    margin-left: 1050px;
+}
+.person2:hover{
+  -webkit-text-stroke: 2px #5900ff;
+  color: transparent;
+  transition: 0.7s;
+}
+.description{
+    font-size: 40px;
+    color: black; 
+    margin-left:875px;
+}
+.description:hover{
+  -webkit-text-stroke: 2px #5900ff;
+  color: transparent;
+  transition: 0.7s;}
+.description2{
+    font-size: 40px;
+    text-align: center;
+    color: black; 
+    margin-left:1050px;
+}
+.description2:hover{
+  -webkit-text-stroke: 2px #5900ff;
+  color: transparent;
+  transition: 0.7s;}
+.table{
+    margin-left:1050px;
+}
+.Company{
+    top: 20px;
+  width: 1200px;
+  margin: 200px;
+  margin-left: 350px;
+  font-size: 120px; 
+  height: 2px;
+  margin-top: 0.1em;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  color: #5900ff;
+}
+.Company:hover{
+  -webkit-text-stroke: 2px #5900ff;
+  color: transparent;
+  transition: 0.7s;}
+</style>
 </head>
 <div class="menu-btn">
     <i class="fa-bars"></i>
@@ -90,3 +323,4 @@
     </section>
       <br><br><br>
 <section>
+
