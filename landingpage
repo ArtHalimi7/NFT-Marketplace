@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>A&K™ Studios</title>
+</head>
+<body>
+<div class="video-background">
+    <div class="video-wrap">
+        <div id="video">
+            
+            <video id="bgvid" src="C:\Users\artha\OneDrive\Desktop\MyWeb\accessories\videoplayback.mp4" type="video/mp4" autoplay loop muted plays inline></video>
+        </div>
+    </div>
+</div>
+<div class="caption text-center">
+    <h1>Welcome to the revolution.</h1>
+    <a class="btn btn-outline-light btn lg" href="C:\Users\artha\OneDrive\Desktop\MyWeb\home page\projekti.html"> Continue</a>
+</div>
+
+</body>
+</html>
