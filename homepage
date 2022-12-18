@@ -50,4 +50,26 @@
            <h2>1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBLOOM&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
            <a href="">MAKE AN OFFER!</a>
   
-       </div> 
+       </div>
+       <div class="card">
+        <div class="card-image car-3"></div>
+        <h2>2&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspREEF&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+        <a href="">MAKE AN OFFER!</a>
+    </div>
+    <div class="card">
+     <div class="card-image car-4"></div>
+     <h2>1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDENSE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+     <a href="">MAKE AN OFFER!</a>
+</div>    
+<div class="card">
+   <div class="card-image car-5"></div>
+   <h2>1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBLOOM&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+   <a href="">MAKE AN OFFER!</a>
+</div> 
+<a href="C:\Users\artha\OneDrive\Desktop\MyWeb\collections\collections.html" class="btn">View Full Collection</a>
+  </section> 
+  <br><br><br>
+  <hr color="#5900ff">
+  <br><br><br>
+   </body>
+   </html> 
