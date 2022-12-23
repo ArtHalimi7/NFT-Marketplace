@@ -1,7 +1,251 @@
 <!DOCTYPE html>
 <head>
   <title>Page 2-4.</title>
-</head>
+  <style>
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding-left: 30;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+    background-image: url("https://arweave.net/cSPJZcqwkrzS5mQf94nPEL28AQ6EIJ1YM7TUNtFp9Vg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 695px;
+    padding: 60px 30px 0 30px;
+  }
+  
+  a {
+    color: #262626;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  .firstList{
+    display:flex;
+    justify-content:space-between;
+    color: black;
+    background-color: black;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container1 {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+  }
+  
+  .container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card{
+    background-color: transparent;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .card-image{
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+  }
+  .car-1{
+    background-image: url('https://facets.la/thumbnails/(29).jpg');
+  }
+  .car-2{
+    background-image: url('https://d2j7mtsoydewxq.cloudfront.net/facets-ii/394-thumbnail.png')
+  }
+  .car-3{
+    background-image: url('https://facets.la/thumbnails/(30).jpg')
+  }
+  .car-4{
+    background-image: url('https://d2j7mtsoydewxq.cloudfront.net/facets-ii/395-thumbnail.png');
+  }
+  .car-5{
+    background-image: url('https://facets.la/thumbnails/(31).jpg')
+  }
+  .car-6{
+    background-image: url('https://d2j7mtsoydewxq.cloudfront.net/facets-ii/396-thumbnail.png')
+  }
+  .car-7{
+    background-image: url('https://facets.la/thumbnails/(32).jpg');
+  }
+  .car-8{
+    background-image: url('https://d2j7mtsoydewxq.cloudfront.net/facets-ii/403-thumbnail.png')
+  }
+  .car-9{
+    background-image: url('https://facets.la/thumbnails/(33).jpg')
+  }
+  .car-10{
+    background-image: url('https://d2j7mtsoydewxq.cloudfront.net/facets-ii/398-thumbnail.png');
+  }
+  .car-11{
+    background-image: url('https://facets.la/thumbnails/(34).jpg')
+  }
+  .car-12{
+    background-image: url('https://d2j7mtsoydewxq.cloudfront.net/facets-ii/399-thumbnail.png');
+  }
+  .car-13{
+    background-image: url('https://facets.la/thumbnails/(35).jpg')
+  }
+  .car-14{
+    background-image: url('https://d2j7mtsoydewxq.cloudfront.net/facets-ii/400-thumbnail.png')
+  }
+  .car-15{
+    background-image: url('https://facets.la/thumbnails/(36).jpg');
+  }
+  .car-16{
+    background-image: url('https://d2j7mtsoydewxq.cloudfront.net/facets-ii/401-thumbnail.png');
+  }
+  .card h2{
+    padding: 10px;
+  }
+  .card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 10px 25px;
+    text-decoration: none;
+  }
+  .card:hover{
+   background-color: #5900ff;
+   color: white;
+   cursor: pointer;
+   transform: scale(1.03);
+   transition: 0.7s
+  }
+   .home-cards{
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .vertical-nav {
+    margin-top: 40px;
+    width: 20px;
+    font-size: 30px;
+    text-decoration: underline;
+    position: fixed;
+    transition: 0.7s;
+  }
+  .vertical-nav a {
+    background-color: #eee;
+    color: #5900ff;
+    display: block;
+    text-decoration: underline;
+    transition: 0.7s;
+  }
+  
+  .vertical-nav a:hover {
+   -webkit-text-stroke: 1px #5900ff;
+    color: transparent;
+  }
+  
+  
+  .main-nav .logo {
+     margin-left: 80px;  
+     width: 70px;
+     height: 60px;
+  }
+  
+  .menu-btn {
+    cursor: pointer;
+    position: center;
+    top: 20px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+  }
+  .btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #5900ff;
+    color: #fff;
+    font-size: 15px;
+    padding-right: 20px;
+    margin:1px;
+  }
+  
+  .btn:hover {
+    opacity: 0.7;
+    color: white;
+  }
+  .btn2 {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #5900ff;
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  .btn2:hover {
+    opacity: 0.7;
+    color: white;
+  }
+  .btn3 {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #5900ff;
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  .btn3:hover {
+    opacity: 0.7;
+    color: white;
+  }
+  .btn4 {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #5900ff;
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  .btn4:hover {
+    opacity: 0.7;
+    color: white;
+  }
+  </style>
+  </head>
 <body>
   <div class="container1">
 
