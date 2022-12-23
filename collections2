@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+  <title>Page 2-4.</title>
+</head>
+<body>
+  <div class="container1">
+
+    <nav class="vertical-nav">
+      <ul class="vertical-nav">
+        <li style="display:inline"><a href="homepage.html"><b>Home</b></a></li>
+        <li style="display:inline"><a href="collections.html"><b>Collections</b></a></li>
+        <li style="display:inline"><a href="about.html"><b>About</b></a></li>
+        <li style="display:inline"><a href="login.html"><b>Login</b></a></li>
+      </ul>
+      
+      <br><br><br><br><br><br>
+      <div id="headD">
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+        <div>
+        <img src="accessories\logo.png" alt="AK LOGO" class="logo" width="150px" height="150px" margin-left="350px">
+    </div>
+    </nav>
+    <header class="showcase">
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="container">
+        <div class="card">
+             <div class="card-image car-1"></div>
+             <h2>4&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspURSULA&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+             <a href="">MAKE AN OFFER!</a>
+       </div>    
+       <div class="card">
+           <div class="card-image car-2"></div>
+           <h2>5&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBRUTE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+           <a href="">MAKE AN OFFER!</a>
+  
+       </div> 
+       <div class="card">
+           <div class="card-image car-3"></div>
+           <h2>6&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspQUEST&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+           <a href="">MAKE AN OFFER!</a>
+       </div>
+       <div class="card">
+        <div class="card-image car-4"></div>
+        <h2>7&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMIDAS&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+        <a href="">MAKE AN OFFER!</a>
+      </div>
