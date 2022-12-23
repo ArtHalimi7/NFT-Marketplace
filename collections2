@@ -95,4 +95,40 @@
         <div class="card-image car-12"></div>
         <h2>1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBENDS2&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
         <a href="">MAKE AN OFFER!</a>
-      </div>      
+      </div>
+      <section class="container4">
+        <div class="card">
+             <div class="card-image car-13"></div>
+             <h2>4&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSTAGE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+             <a href="">MAKE AN OFFER!</a>
+       </div>    
+       <div class="card">
+           <div class="card-image car-14"></div>
+           <h2>6&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPEACHY&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+           <a href="">MAKE AN OFFER!</a>
+  
+       </div> 
+       <div class="card">
+           <div class="card-image car-15"></div>
+           <h2>7&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPORT&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+           <a href="">MAKE AN OFFER!</a>
+       </div>
+       <div class="card">
+        <div class="card-image car-16"></div>
+        <h2>2&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDISCO&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2022</h2>
+        <a href="">MAKE AN OFFER!</a>
+      </div>    
+   </section> 
+  </section>
+   <div>
+    <br><br><br>
+   <a href="collections.html" class="btn">1</a>
+   <a href="collections2.html" class="btn2">2</a>
+   <a href="#" class="btn3">3</a>
+   <a href="#" class="btn4">4</a>
+  </div>
+   <br><br><br>
+   <br><br><br>
+   <br><br><br>
+    </body>
+    </html>      
